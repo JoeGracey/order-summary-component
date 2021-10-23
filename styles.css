@@ -1,0 +1,105 @@
+html {
+  background-color: #DBE6FD;
+}
+
+body {
+  background-size:cover;
+  text-align: center;
+  z-index: -1;
+}
+
+.background-image {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.main-div {
+  display: inline-block;
+  position: relative;
+  margin-left: 31%;
+  margin-right: 31%;
+  top: -150px;
+  background-color: white;
+  box-shadow: 10px 8px 50px #bcbcbc;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.hero {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+.paragraph-text {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: sans-serif;
+  color: #696969;
+}
+
+.subscription {
+  background-color: #d2d8e0;
+  font-family: sans-serif;
+  overflow: hidden;
+  margin: 5% 15%;
+  padding: 10px 0 20px 0;
+  border-radius: 15px;
+}
+
+.music {
+  float: left;
+  margin-left: 5%;
+}
+
+.annual-plan {
+  margin: 5% 45% 0 0;
+  color: black;
+}
+
+.year {
+  margin: 5px 45% 0 0;
+  color: #000;
+}
+
+.change {
+  float: right;
+  margin: -30px 5% 5% 0;
+}
+
+change:hover {
+  color: #B85C38;
+}
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 19%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 5px 8px 25px #999;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #B85C38;
+}
+
+.proceed-to-payment {
+  font-family: sans-serif;
+  color: #696969;
+}
+
+.cancel-order {
+  color: #696969;
+  font-family: sans-serif;
+  margin: 25px;
+}
